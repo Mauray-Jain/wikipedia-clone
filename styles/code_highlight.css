@@ -1,234 +1,231 @@
 .hll {
-  background-color:#ffffcc
-}
-{
-  background:#f8f8f8
+  background-color: #ffffcc;
 }
 .c {
-  color:#3D7B7B;
-  font-style:italic
+  color: #3d7b7b;
+  font-style: italic;
 }
 .err {
-  border:1px solid #FF0000
+  border: 1px solid #ff0000;
 }
 .k {
-  color:#008000;
-  font-weight:bold
+  color: #008000;
+  font-weight: bold;
 }
 .o {
-  color:#666666
+  color: #666666;
 }
 .ch {
-  color:#3D7B7B;
-  font-style:italic
+  color: #3d7b7b;
+  font-style: italic;
 }
 .cm {
-  color:#3D7B7B;
-  font-style:italic
+  color: #3d7b7b;
+  font-style: italic;
 }
 .cp {
-  color:#9C6500
+  color: #9c6500;
 }
 .cpf {
-  color:#3D7B7B;
-  font-style:italic
+  color: #3d7b7b;
+  font-style: italic;
 }
 .c1 {
-  color:#3D7B7B;
-  font-style:italic
+  color: #3d7b7b;
+  font-style: italic;
 }
 .cs {
-  color:#3D7B7B;
-  font-style:italic
+  color: #3d7b7b;
+  font-style: italic;
 }
 .gd {
-  color:#A00000
+  color: #a00000;
 }
 .ge {
-  font-style:italic
+  font-style: italic;
 }
 .ges {
-  font-weight:bold;
-  font-style:italic
+  font-weight: bold;
+  font-style: italic;
 }
 .gr {
-  color:#E40000
+  color: #e40000;
 }
 .gh {
-  color:#000080;
-  font-weight:bold
+  color: #000080;
+  font-weight: bold;
 }
 .gi {
-  color:#008400
+  color: #008400;
 }
 .go {
-  color:#717171
+  color: #717171;
 }
 .gp {
-  color:#000080;
-  font-weight:bold
+  color: #000080;
+  font-weight: bold;
 }
 .gs {
-  font-weight:bold
+  font-weight: bold;
 }
 .gu {
-  color:#800080;
-  font-weight:bold
+  color: #800080;
+  font-weight: bold;
 }
 .gt {
-  color:#0044DD
+  color: #0044dd;
 }
 .kc {
-  color:#008000;
-  font-weight:bold
+  color: #008000;
+  font-weight: bold;
 }
 .kd {
-  color:#008000;
-  font-weight:bold
+  color: #008000;
+  font-weight: bold;
 }
 .kn {
-  color:#008000;
-  font-weight:bold
+  color: #008000;
+  font-weight: bold;
 }
 .kp {
-  color:#008000
+  color: #008000;
 }
 .kr {
-  color:#008000;
-  font-weight:bold
+  color: #008000;
+  font-weight: bold;
 }
 .kt {
-  color:#B00040
+  color: #b00040;
 }
 .m {
-  color:#666666
+  color: #666666;
 }
 .s {
-  color:#BA2121
+  color: #ba2121;
 }
 .na {
-  color:#687822
+  color: #687822;
 }
 .nb {
-  color:#008000
+  color: #008000;
 }
 .nc {
-  color:#0000FF;
-  font-weight:bold
+  color: #0000ff;
+  font-weight: bold;
 }
 .no {
-  color:#880000
+  color: #880000;
 }
 .nd {
-  color:#AA22FF
+  color: #aa22ff;
 }
 .ni {
-  color:#717171;
-  font-weight:bold
+  color: #717171;
+  font-weight: bold;
 }
 .ne {
-  color:#CB3F38;
-  font-weight:bold
+  color: #cb3f38;
+  font-weight: bold;
 }
 .nf {
-  color:#0000FF
+  color: #0000ff;
 }
 .nl {
-  color:#767600
+  color: #767600;
 }
 .nn {
-  color:#0000FF;
-  font-weight:bold
+  color: #0000ff;
+  font-weight: bold;
 }
 .nt {
-  color:#008000;
-  font-weight:bold
+  color: #008000;
+  font-weight: bold;
 }
 .nv {
-  color:#19177C
+  color: #19177c;
 }
 .ow {
-  color:#AA22FF;
-  font-weight:bold
+  color: #aa22ff;
+  font-weight: bold;
 }
 .w {
-  color:#bbbbbb
+  color: #bbbbbb;
 }
 .mb {
-  color:#666666
+  color: #666666;
 }
 .mf {
-  color:#666666
+  color: #666666;
 }
 .mh {
-  color:#666666
+  color: #666666;
 }
 .mi {
-  color:#666666
+  color: #666666;
 }
 .mo {
-  color:#666666
+  color: #666666;
 }
 .sa {
-  color:#BA2121
+  color: #ba2121;
 }
 .sb {
-  color:#BA2121
+  color: #ba2121;
 }
 .sc {
-  color:#BA2121
+  color: #ba2121;
 }
 .dl {
-  color:#BA2121
+  color: #ba2121;
 }
 .sd {
-  color:#BA2121;
-  font-style:italic
+  color: #ba2121;
+  font-style: italic;
 }
 .s2 {
-  color:#BA2121
+  color: #ba2121;
 }
 .se {
-  color:#AA5D1F;
-  font-weight:bold
+  color: #aa5d1f;
+  font-weight: bold;
 }
 .sh {
-  color:#BA2121
+  color: #ba2121;
 }
 .si {
-  color:#A45A77;
-  font-weight:bold
+  color: #a45a77;
+  font-weight: bold;
 }
 .sx {
-  color:#008000
+  color: #008000;
 }
 .sr {
-  color:#A45A77
+  color: #a45a77;
 }
 .s1 {
-  color:#BA2121
+  color: #ba2121;
 }
 .ss {
-  color:#19177C
+  color: #19177c;
 }
 .bp {
-  color:#008000
+  color: #008000;
 }
 .fm {
-  color:#0000FF
+  color: #0000ff;
 }
 .vc {
-  color:#19177C
+  color: #19177c;
 }
 .vg {
-  color:#19177C
+  color: #19177c;
 }
 .vi {
-  color:#19177C
+  color: #19177c;
 }
 .vm {
-  color:#19177C
+  color: #19177c;
 }
 .il {
-  color:#666666
+  color: #666666;
 }

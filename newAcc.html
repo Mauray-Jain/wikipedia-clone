@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/newacc.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="logo_div">
+          <img src="assets/wikilogo.png" id="logo" alt="Logo" />
+          <div id="search">
+            <input id="search_inp" type="text" placeholder="Search WikiPedia" />
+            <input id="search_button" type="submit" value="Search" />
+          </div>
+        </div>
+        <div id="nav_links">
+          <a class="nav_link" href="newAcc.html">Create Account</a>
+          <a class="nav_link" href="login.html">Login</a>
+        </div>
+      </nav>
+    </header>
+    <center><h2>Create account</h2></center>
+    <hr />
+    <form action="#">
+      <div class="wrapper">
+        <label for="userName">Username</label>
+        <input type="text" class="userName" placeholder="Enter your username" />
+        <p>Your username is public and cannot be made private later.</p>
+      </div>
+      <div class="wrapper">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          class="password"
+          placeholder="Enter a password"
+        />
+        <p>
+          It is recommended to use a unique password that you are not using on
+          any other website.
+        </p>
+      </div>
+      <div class="wrapper">
+        <label for="con-pass">Confirm Password</label>
+        <input
+          type="password"
+          class="con-pass"
+          placeholder="Enter password agian"
+        />
+      </div>
+      <div class="wrapper">
+        <label for="email">Email address (recommended)</label>
+        <input
+          type="email"
+          class="email"
+          placeholder="Enter your email address"
+        />
+        <p>
+          Email is required to recover your account if you lose your password.
+        </p>
+      </div>
+      <button type="submit" class="logIn">Create your account</button>
+    </form>
+  </body>
+</html>

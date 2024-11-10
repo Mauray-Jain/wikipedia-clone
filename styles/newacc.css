@@ -1,0 +1,47 @@
+input:focus {
+  outline: transparent;
+  border: 2px solid blue;
+}
+form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  width: 300px;
+  border-radius: 15px;
+  padding: 1rem;
+}
+label {
+  margin-bottom: 5px;
+}
+p {
+  font-size: 12px;
+}
+form > div > input {
+  height: 25px;
+  border: 2px solid rgb(0, 0, 0, 0.4);
+  border-radius: 3px;
+}
+
+form > div > input:focus {
+  outline: transparent;
+  border: 2px solid blue;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.logIn {
+  height: 45px;
+  border: none;
+  color: white;
+  background-color: blue;
+  font-size: 14px;
+  border-radius: 3px;
+}
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}

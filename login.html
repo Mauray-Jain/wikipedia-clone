@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="logo_div">
+          <img src="assets/wikilogo.png" id="logo" alt="Logo" />
+          <div id="search">
+            <input id="search_inp" type="text" placeholder="Search WikiPedia" />
+            <input id="search_button" type="submit" value="Search" />
+          </div>
+        </div>
+        <div id="nav_links">
+          <a class="nav_link" href="/newAcc.html">Create Account</a>
+          <a class="nav_link" href="/login.html">Login</a>
+        </div>
+      </nav>
+    </header>
+    <center><h2>Log In</h2></center>
+    <hr />
+    <form action="#">
+      <div class="wrapper">
+        <label for="userName" class="wrap">Username</label>
+        <input type="text" class="userName" placeholder="Enter your username" />
+      </div>
+      <div class="wrapper">
+        <label for="password" class="wrap">Password</label>
+        <input
+          type="password"
+          class="password"
+          placeholder="Enter your password"
+        />
+      </div>
+      <div class="checkBox">
+        <input type="checkbox" class="remember" />
+        <label for="remember">Keep me logged in</label>
+      </div>
+      <button type="submit" class="logIn">Log in</button>
+      <div class="link">
+        <a href="#">Help with logging in</a>
+        <a href="#">Forgot your password?</a>
+      </div>
+    </form>
+    <div class="wrapper newACC">
+      <label for="newAcc">Don't have an account?</label>
+      <a href="newAcc.html">
+        <button class="newAcc">Join wikipedia</button>
+      </a>
+    </div>
+  </body>
+</html>

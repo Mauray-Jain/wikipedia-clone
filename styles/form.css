@@ -1,0 +1,74 @@
+.newACC {
+  align-items: center;
+}
+.newACC button {
+  font-size: 14px;
+  font-weight: 600;
+}
+form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+  padding: 1rem;
+}
+.wrap {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.checkBox {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  align-items: center;
+}
+form > div > input {
+  height: 25px;
+  border: 2px solid rgb(0, 0, 0, 0.4);
+}
+
+form > div > input:focus {
+  outline: transparent;
+  border: 2px solid blue;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+.logIn {
+  margin-bottom: 15px;
+  height: 35px;
+  border: none;
+  color: white;
+  background-color: blue;
+  font-size: 14px;
+  font-weight: 600;
+}
+.newAcc {
+  width: 300px;
+  height: 35px;
+  color: blue;
+  background-color: white;
+  border: 1px solid gray;
+  font-size: 14px;
+}
+button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.newACC {
+  background-image: url(image\ copy.png);
+  background-size: cover;
+}

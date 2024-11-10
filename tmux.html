@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tmux</title>
+    <link href="styles/header.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div id="logo_div">
+          <img src="assets/wikilogo.png" id="logo" alt="Logo" />
+          <div id="search">
+            <input id="search_inp" type="text" placeholder="Search WikiPedia" />
+            <input id="search_button" type="submit" value="Search" />
+          </div>
+        </div>
+        <div id="nav_links">
+          <a class="nav_link" href="newAcc.html">Create Account</a>
+          <a class="nav_link" href="login.html">Login</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="sidebar">
+        <div></div>
+        <div id="sidebar_sticky">
+          <h4 id="sidebar_head">Contents</h4>
+          <ul id="sidebar_toc">
+            <li class="toc_list_item">
+              <a class="sidebar_links" href="#Features">Features</a>
+            </li>
+            <li class="toc_list_item">
+              <a class="sidebar_links" href="#Availability">Availability</a>
+            </li>
+            <li class="toc_list_item">
+              <a class="sidebar_links" href="#See_also">See Also</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="content">
+        <h1 id="main_title">Tmux</h1>
+        <div lang="en" dir="ltr">
+          <div style="display: none">Terminal multiplexer</div>
+          <p></p>
+          <div role="note" class="hatnote">
+            Not to be confused with
+            <a href="https://en.wikipedia.org/wiki/Termux" title="Termux"
+              >Termux</a
+            >.
+          </div>
+          <table class="infobox">
+            <caption class="infobox-title">
+              tmux
+            </caption>
+            <tbody>
+              <tr>
+                <td colspan="2" class="infobox-image">
+                  <span typeof=":File/Frameless"
+                    ><a href="https://en.wikipedia.org/wiki/File:Tmux_logo.svg"
+                      ><img
+                        src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Tmux_logo.svg/120px-Tmux_logo.svg.png"
+                        decoding="async"
+                        width="120"
+                        height="32"
+                        srcset="
+                          //upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Tmux_logo.svg/180px-Tmux_logo.svg.png 1.5x,
+                          //upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Tmux_logo.svg/240px-Tmux_logo.svg.png 2x
+                        "
+                        data-file-width="608"
+                        data-file-height="160" /></a
+                  ></span>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" class="infobox-image">
+                  <span typeof=":File"
+                    ><a href="https://en.wikipedia.org/wiki/File:Tmux.png"
+                      ><img
+                        src="//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Tmux.png/320px-Tmux.png"
+                        decoding="async"
+                        width="320"
+                        height="221"
+                        srcset="
+                          //upload.wikimedia.org/wikipedia/commons/thumb/5/50/Tmux.png/480px-Tmux.png 1.5x,
+                          //upload.wikimedia.org/wikipedia/commons/thumb/5/50/Tmux.png/640px-Tmux.png 2x
+                        "
+                        data-file-width="694"
+                        data-file-height="480" /></a
+                  ></span>
+                  <div class="infobox-caption">
+                    tmux session, with two horizontal and one vertical pane.
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                  class="infobox-label"
+                  style="white-space: nowrap"
+                >
+                  <a
+                    href="https://en.wikipedia.org/wiki/Programmer"
+                    title="Programmer"
+                    >Developer(s)</a
+                  >
+                </th>
+                <td class="infobox-data">Nicholas Marriott</td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                  class="infobox-label"
+                  style="white-space: nowrap"
+                >
+                  Initial release
+                </th>
+                <td class="infobox-data">
+                  20&nbsp;November 2007<span>; 16 years ago</span
+                  ><span style="display: none"
+                    >&nbsp;(<span>2007-11-20</span>)</span
+                  >
+                </td>
+              </tr>
+              <tr style="display: none">
+                <td colspan="2" class="infobox-full-data">
+                  <link rel="" href=":TemplateStyles:r1237879389" />
+                </td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                  class="infobox-label"
+                  style="white-space: nowrap"
+                >
+                  <a
+                    href="https://en.wikipedia.org/wiki/Software_release_life_cycle"
+                    title="Software release life cycle"
+                    >Stable release</a
+                  >
+                </th>
+                <td class="infobox-data">
+                  <div style="margin: 0px">
+                    3.5a / 5 October 2024<span>; 35 days ago</span
+                    ><span style="display: none"
+                      >&nbsp;(<span>5 October 2024</span>)</span
+                    >
+                  </div>
+                </td>
+              </tr>
+              <tr style="display: none">
+                <td colspan="2"></td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                  class="infobox-label"
+                  style="white-space: nowrap"
+                >
+                  <a
+                    href="https://en.wikipedia.org/wiki/Repository_(version_control)"
+                    title="Repository (version control)"
+                    >Repository</a
+                  >
+                </th>
+                <td class="infobox-data">
+                  <span
+                    ><a rel="nofollow" href="https://github.com/tmux/tmux"
+                      >github<wbr />.com<wbr />/tmux<wbr />/tmux</a
+                    ></span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                  class="infobox-label"
+                  style="white-space: nowrap"
+                >
+                  Written in
+                </th>
+                <td class="infobox-data">
+                  <a
+                    href="https://en.wikipedia.org/wiki/C_(programming_language)"
+                    title="C (programming language)"
+                    >C</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                  class="infobox-label"
+                  style="white-space: nowrap"
+                >
+                  <a
+                    href="https://en.wikipedia.org/wiki/Operating_system"
+                    title="Operating system"
+                    >Operating system</a
+                  >
+                </th>
+                <td class="infobox-data">
+                  <a
+                    href="https://en.wikipedia.org/wiki/Unix-like"
+                    title="Unix-like"
+                    >Unix-like</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                  class="infobox-label"
+                  style="white-space: nowrap"
+                >
+                  Available in
+                </th>
+                <td class="infobox-data">English</td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                  class="infobox-label"
+                  style="white-space: nowrap"
+                >
+                  <a
+                    href="https://en.wikipedia.org/wiki/Software_categories#Categorization_approaches"
+                    title="Software categories"
+                    >Type</a
+                  >
+                </th>
+                <td class="infobox-data">
+                  <a
+                    href="https://en.wikipedia.org/wiki/Terminal_multiplexer"
+                    title="Terminal multiplexer"
+                    >Terminal multiplexer</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                  class="infobox-label"
+                  style="white-space: nowrap"
+                >
+                  <a
+                    href="https://en.wikipedia.org/wiki/Software_license"
+                    title="Software license"
+                    >License</a
+                  >
+                </th>
+                <td class="infobox-data">
+                  <a
+                    href="https://en.wikipedia.org/wiki/ISC_license"
+                    title="ISC license"
+                    >ISC license</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <th
+                  scope="row"
+                  class="infobox-label"
+                  style="white-space: nowrap"
+                >
+                  Website
+                </th>
+                <td class="infobox-data">
+                  <span
+                    ><a rel="nofollow" href="https://tmux.github.io/"
+                      >tmux<wbr />.github<wbr />.io</a
+                    ></span
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            <b>tmux</b> is an
+            <a
+              href="https://en.wikipedia.org/wiki/Open-source"
+              title="Open-source"
+              >open-source</a
+            >
+            <a
+              href="https://en.wikipedia.org/wiki/Terminal_multiplexer"
+              title="Terminal multiplexer"
+              >terminal multiplexer</a
+            >
+            for
+            <a href="https://en.wikipedia.org/wiki/Unix-like" title="Unix-like"
+              >Unix-like</a
+            >
+            <a
+              href="https://en.wikipedia.org/wiki/Operating_system"
+              title="Operating system"
+              >operating systems</a
+            >. It allows multiple
+            <a
+              href="https://en.wikipedia.org/wiki/Computer_terminal"
+              title="Computer terminal"
+              >terminal</a
+            >
+            sessions to be accessed simultaneously in a single window. It is
+            useful for running more than one
+            <a
+              href="https://en.wikipedia.org/wiki/Command-line_interface"
+              title="Command-line interface"
+              >command-line</a
+            >
+            program at the same time. It can also be used to detach . It allows
+            users to start a terminal session with clients that are not bound to
+            a specific physical or virtual console; multiple terminal sessions
+            can be created within a single terminal session and then freely
+            rebound from one virtual console to another, and each session can
+            have several connected clients.
+          </p>
+
+          <ul>
+            <li>
+              Menus for interactive selection of running sessions, windows or
+              clients
+            </li>
+
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Vi_(text_editor)"
+                title="Vi (text editor)"
+                >vi</a
+              >-like or
+              <a href="https://en.wikipedia.org/wiki/Emacs" title="Emacs"
+                >Emacs</a
+              >
+              command mode (with
+              <a
+                href="https://en.wikipedia.org/wiki/Command-line_completion"
+                title="Command-line completion"
+                >auto completion</a
+              >) for managing tmux
+            </li>
+            <li>Vertical and horizontal window split support</li>
+          </ul>
+          <p>
+            tmux lacks built-in
+            <a
+              href="https://en.wikipedia.org/wiki/Serial_port"
+              title="Serial port"
+              >serial port</a
+            >
+            and
+            <a href="https://en.wikipedia.org/wiki/Telnet" title="Telnet"
+              >telnet</a
+            >
+            support. It uses different command keys from the ones used by
+            screen, so it is not a drop-in replacement for screen, but it can be
+            configured to use compatible
+            <a
+              href="https://en.wikipedia.org/wiki/Keybindings"
+              title="Keybindings"
+              >keybindings</a
+            >.
+          </p>
+          <div>
+            <h2 id="Availability">Availability</h2>
+          </div>
+          <p>
+            tmux is included in the
+            <a href="https://en.wikipedia.org/wiki/OpenBSD" title="OpenBSD"
+              >OpenBSD</a
+            >
+            base system, and is available as a
+            <a
+              href="https://en.wikipedia.org/wiki/Package_manager"
+              title="Package manager"
+              >package</a
+            >
+            for many other
+            <a href="https://en.wikipedia.org/wiki/Unix-like" title="Unix-like"
+              >Unix-like</a
+            >
+            operating systems.
+          </p>
+          <div>
+            <h2 id="See_also">See also</h2>
+          </div>
+          <ul>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Byobu_(software)"
+                title="Byobu (software)"
+                >Byobu (software)</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Mosh_(software)"
+                title="Mosh (software)"
+                >Mosh (software)</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://en.wikipedia.org/wiki/Twin_(windowing_system)"
+                title="Twin (windowing system)"
+                >Twin (windowing system)</a
+              >
+            </li>
+            <li>
+              <a href="https://en.wikipedia.org/wiki/Xpra" title="Xpra">xpra</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
